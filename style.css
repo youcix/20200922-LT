@@ -1,20 +1,52 @@
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 #about {
-    background-image: url(./img/wengang-zhai-Q54761KjjnI-unsplash.jpg);
-    height:500vh;
-    width:100%;
+  background-image: url(./img/wengang-zhai-Q54761KjjnI-unsplash.jpg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 3fr 2fr;
+      grid-template-columns: 3fr 2fr;
+  grid-gap: 50px;
+  padding: 100px 0;
 }
 
-/* 看更多按鈕 */
-
-a .button{
-    text-decoration: none;
-    border: oldlace;
-    color:black;
+#about-left {
+  height: 600px;
 }
+
+#about-right {
+  width: 450px;
+  padding: 50px;
+  height: 450px;
+  border: 1px solid #fff;
+}
+
+h1 {
+  color: white;
+  padding-bottom: 20px;
+  margin-top: 50px;
+}
+
+p {
+  color: white;
+  padding: 20px 0;
+  padding-bottom: 50px;
+}
+
+a {
+  background: white;
+  padding: 8px 15px;
+  text-decoration: none;
+  color: black;
+  border-radius: 20px;
+}
+/*# sourceMappingURL=style.css.map */
