@@ -1,0 +1,11 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#about{
+    background-image: url(./img/wengang-zhai-Q54761KjjnI-unsplash.jpg);
+    height:100vh;
+}
