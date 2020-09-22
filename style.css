@@ -5,7 +5,16 @@
     box-sizing: border-box;
 }
 
-#about{
+#about {
     background-image: url(./img/wengang-zhai-Q54761KjjnI-unsplash.jpg);
-    height:100vh;
+    height:500vh;
+    width:100%;
+}
+
+/* 看更多按鈕 */
+
+a .button{
+    text-decoration: none;
+    border: oldlace;
+    color:black;
 }
