@@ -6,11 +6,12 @@
 }
 
 #about {
-  background-image: url(./img/wengang-zhai-Q54761KjjnI-unsplash.jpg);
+  background-image: url(./img/about.png);
   width: 100%;
   height: 100vh;
   background-size: cover;
-  background-position: center;
+  background-repeat: no-repeat;
+  background-position: 100% 20%;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 3fr 2fr;
